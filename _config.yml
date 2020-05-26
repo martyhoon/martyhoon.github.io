@@ -17,7 +17,7 @@ description: >-                        # used by seo meta and the atom feed
   bootstrap Jekyll theme with responsive web design
   and focuses on text presentation.
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+url: 'https://martyhoon.github.io'
 
 author: your_full_name                  # change to your full name
 
@@ -201,3 +201,4 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
+remote_theme : cotes2020/jekyll-theme-chirpy
