@@ -1,31 +1,46 @@
 ---
-layout: default
+layout: page
+# The Home page layout
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT Licensed
 ---
 
-<div class="catalogue">
+<div id="post-list">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-      <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
+  <div class="post-preview">
+    <h1>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h1>
+    <div class="post-content">
+      <p>
+      {% assign _content = post.content %}
+      {% include no-linenos.html %}
+      {{ _content | markdownify | strip_html | truncate: 200 }}
+      </p>
+    </div>
 
-        <p>
-          {{ post.content | strip_html | truncatewords: 30 }}
-        </p>
-
-      </div>
-    </a>
+    <div class="post-meta text-muted">
+      <!-- posted date -->
+      <i class="far fa-clock fa-fw"></i>
+      <span class="timeago" data-toggle="tooltip" data-placement="bottom"
+        title="{{ post.date | date: site.data.date_format.tooltip }}">
+      {{ post.date | date: site.data.date_format.post }}
+      <i class="unloaded">{{ post.date | date_to_xmlschema }}</i>
+      </span>
+      <!-- page views -->
+      {% if site.google_analytics.pv.enabled %}
+      <i class="far fa-eye fa-fw"></i>
+      <span id="pv_{{-post.title-}}" class="pageviews">
+        <i class="fas fa-spinner fa-spin fa-fw"></i>
+      </span>
+      {% endif %}
+    </div>
+  </div> <!-- .post-review -->
   {% endfor %}
-</div>
+</div> <!-- #post-list -->
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <span>{{ paginator.page }}</span>
-</div>
+{% if paginator.total_pages > 0 %}
+  {% include post-paginator.html %}
+{% endif %}
