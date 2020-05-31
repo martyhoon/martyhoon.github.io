@@ -1,5 +1,5 @@
 # Site settings
-title:          Tale
+title:          Martyhoon
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        ""
 url:            "https://martyhoon.github.io/"
@@ -9,9 +9,8 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Martyhoon
+  email:        didgnsah7320@gmail.com
 
 # Build settings
 markdown:       kramdown
