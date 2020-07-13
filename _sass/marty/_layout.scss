@@ -5,12 +5,18 @@
 }
 
 main,
-footer,
 .nav-container {
   display: block;
   margin: 0 auto;
   max-width: 800px;
   width: 80%;
+}
+
+/*navi icon size*/
+#head_icon{
+
+  margin :  0;
+  width : 45px;
 }
 
 .nav {
@@ -76,13 +82,36 @@ footer,
   }
 }
 
+.footer_title{
+
+  font-size: 12px;
+ 
+}
+
+.footer_email{
+
+  font-size: 12px;
+  line-height: 2.0;
+}
+
 footer {
-  font-family: $serif-secondary;
+  display: block;
+  padding: 45px 0;
+  
+  background-color: #495057;
+  color : #fff;
   padding: 2rem 0;
-  text-align: center;
+ 
+  .wrapper{
+    max-width: 800px;
+    margin-left:  auto;
+    margin-right: auto ;
+    width : 80%;
+ 
+  }
 
   span {
-    color: $default-color;
+    line-height: 3.0;
     font-size: .8rem;
   }
 }
