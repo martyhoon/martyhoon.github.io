@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-13T15:42:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Martyhoon’s record</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Martyhoon</name><email>didgnsah7320@gmail.com</email></author><entry><title type="html">Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스</title><link href="http://localhost:4000/2020-05-31/Doggy" rel="alternate" type="text/html" title="Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스 " /><published>2020-05-31T00:00:00+09:00</published><updated>2020-05-31T00:00:00+09:00</updated><id>http://localhost:4000/2020-05-31/Doggy</id><content type="html" xml:base="http://localhost:4000/2020-05-31/Doggy">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-13T15:57:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Martyhoon’s record</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Martyhoon</name><email>didgnsah7320@gmail.com</email></author><entry><title type="html">Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스</title><link href="http://localhost:4000/2020-05-31/Doggy" rel="alternate" type="text/html" title="Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스 " /><published>2020-05-31T00:00:00+09:00</published><updated>2020-05-31T00:00:00+09:00</updated><id>http://localhost:4000/2020-05-31/Doggy</id><content type="html" xml:base="http://localhost:4000/2020-05-31/Doggy">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;흔히 ‘개같다’라고 하면 일단은 부정적인 생각이 떠오를 것이다. 아마도 우리 생활 속에서 흔히볼 수 있고 친근한 개에 대해 은연 중에 하찮은 존재라고 여기고 있기 때문일 것이다. 프로젝트 ‘개같은 내얼굴’은 개같은 얼굴을 한 우리, 그리고 개가 똑같은 하나의 생명임을 느끼고 이를 통하여 개에 대해 관심을 가지고 사랑해줬으면 하는 마음에서 출발했다.&lt;/p&gt;
 
-&lt;h2 id=&quot;service-overview&quot;&gt;Service Overview&lt;/h2&gt;
-&lt;hr /&gt;
+&lt;h3 id=&quot;service-overview&quot;&gt;Service Overview&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/sample/doggy_storyboard.png&quot; alt=&quot;storyboard&quot; /&gt;
 120종의 견종 중 사진 속의 사람과 가장 닮은 견종이 무엇인지 찾아주고 해당 견종에 대해 설명해주는 서비스&lt;/p&gt;
 
-&lt;h2 id=&quot;my-role&quot;&gt;My Role&lt;/h2&gt;
-&lt;hr /&gt;
+&lt;h3 id=&quot;my-role&quot;&gt;My Role&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Android Studio&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;java&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xml&lt;/code&gt; 사용&lt;/p&gt;
 
@@ -20,4 +19,4 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/openhack-Doggy/doggy.mobile&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Martyhoon</name></author><summary type="html">Summary</summary></entry></feed>
+&lt;a href=&quot;https://github.com/openhack-Doggy/doggy.mobile&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Martyhoon</name></author><summary type="html"></summary></entry></feed>
