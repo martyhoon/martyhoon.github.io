@@ -1,8 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-14T14:16:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Martyhoon’s record</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Martyhoon</name><email>didgnsah7320@gmail.com</email></author><entry><title type="html">Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스</title><link href="http://localhost:4000/2020-05-31/Doggy" rel="alternate" type="text/html" title="Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스 " /><published>2020-05-31T00:00:00+09:00</published><updated>2020-05-31T00:00:00+09:00</updated><id>http://localhost:4000/2020-05-31/Doggy</id><content type="html" xml:base="http://localhost:4000/2020-05-31/Doggy">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-15T13:27:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Martyhoon’s record</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Martyhoon</name><email>didgnsah7320@gmail.com</email></author><entry><title type="html">LKgreen - 회사 랜딩 페이지</title><link href="http://localhost:4000/2020-07-15/LKgreen" rel="alternate" type="text/html" title="LKgreen - 회사 랜딩 페이지 " /><published>2020-07-15T00:00:00+09:00</published><updated>2020-07-15T00:00:00+09:00</updated><id>http://localhost:4000/2020-07-15/LKgreen</id><content type="html" xml:base="http://localhost:4000/2020-07-15/LKgreen">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-output&quot;&gt;Project Output&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://lkgreen.co.kr/&quot;&gt;&lt;img src=&quot;/assets/img/sample/lkgreen.png&quot; alt=&quot;lkgreen&quot; /&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;클릭 시 페이지 이동&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
-&lt;p&gt;흔히 ‘개같다’라고 하면 일단은 부정적인 생각이 떠오를 것이다. 아마도 우리 생활 속에서 흔히볼 수 있고 친근한 개에 대해 은연 중에 하찮은 존재라고 여기고 있기 때문일 것이다. 프로젝트 ‘개같은 내얼굴’은 개같은 얼굴을 한 우리, 그리고 개가 똑같은 하나의 생명임을 느끼고 이를 통하여 개에 대해 관심을 가지고 사랑해줬으면 하는 마음에서 출발했다.&lt;/p&gt;
+&lt;p&gt;반영구 마스크와 공기 청정기를 판매하는 스타트업 Lkgreen의 랜딩 페이지 작업을 했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Html, css, js&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fullpage.js&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;firebase&lt;/code&gt; 사용&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;오픈소스인 fullpage.js 기반 홈페이지 제작&lt;/li&gt;
+  &lt;li&gt;Firebase를 통한 호스팅&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Martyhoon</name></author><summary type="html"></summary></entry><entry><title type="html">Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스</title><link href="http://localhost:4000/2020-05-31/Doggy" rel="alternate" type="text/html" title="Doggy - 내 얼굴과 닮은 개를 찾아주는 모바일 서비스 " /><published>2020-05-31T00:00:00+09:00</published><updated>2020-05-31T00:00:00+09:00</updated><id>http://localhost:4000/2020-05-31/Doggy</id><content type="html" xml:base="http://localhost:4000/2020-05-31/Doggy">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;본 프로젝트는 &lt;span style=&quot;border-bottom : 3px soild #be4e7f8; box-shadow : inset 0 -4px 0 #b4e7f8;&quot;&gt;2018 오픈 핵 소프트웨어 중심 대학 오픈소스 해커톤&lt;/span&gt;에 참가하여 만들었다. 흔히 ‘개같다’라고 하면 일단은 부정적인 생각이 떠오를 것이다. 아마도 우리 생활 속에서 흔히볼 수 있고 친근한 개에 대해 은연 중에 하찮은 존재라고 여기고 있기 때문일 것이다. 프로젝트 ‘개같은 내얼굴’은 개같은 얼굴을 한 우리, 그리고 개가 똑같은 하나의 생명임을 느끼고 이를 통하여 개에 대해 관심을 가지고 사랑해줬으면 하는 마음에서 출발했다.&lt;/p&gt;
 
 &lt;h3 id=&quot;service-overview&quot;&gt;Service Overview&lt;/h3&gt;
 
