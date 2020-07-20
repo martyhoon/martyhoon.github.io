@@ -3,6 +3,8 @@ layout: post
 title: "About"
 author: "Martyhoon"
 permalink: /about/
+post-header : true
+header-img: /img/about.jpg
 ---
 
 <style>

@@ -7,6 +7,11 @@
 
     {% include navigation.html %}
 
+    <!-- post header 이미지 넣는 부분-->
+    {% if page.post-header == true %}
+    {% include post-header.html %}
+    {% endif %}
+
     <main>
       {{ content }}
     </main>
