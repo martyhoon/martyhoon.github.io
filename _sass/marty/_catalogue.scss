@@ -15,6 +15,20 @@
     }
   }
 
+  &-body {
+
+    color : black;
+
+  }
+
+  &-type {
+
+    color : #4B4B4B;
+    font-weight: 500;
+    
+
+  }
+
   &-time {
     color: $default-tint;
     font-family: $serif-secondary;
@@ -37,3 +51,4 @@
     width: 2rem;
   }
 }
+
