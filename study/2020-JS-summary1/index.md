@@ -12,11 +12,13 @@ order : 1
 
 <p style="font-size : 10px; color : #e9e9e9" > 아래 글은 공부하고 기억하기 위해 남겨놓는 글이다 </p>
 
-### Definition
+### &#128310; Definition
 
-웹에서 사용되는 프로그래밍 언어, 흔히 Front-End를 개발할 때 사용하는 언어이다. 현재는 웹이 빠르게 발전하면서 같이 빠르게 발전하고 있으며 해당 언어의 개발자들이 할 수 있는 일도 늘어나고 있는 추세이다.
+&nbsp;&nbsp;웹에서 사용되는 프로그래밍 언어, 흔히 Front-End를 개발할 때 사용하는 언어이다. 현재는 웹이 빠르게 발전하면서 같이 빠르게 발전하고 있으며 해당 언어의 개발자들이 할 수 있는 일도 늘어나고 있는 추세이다. <span style ="border-bottom : 3px soild #be4e7f8; box-shadow : inset 0 -4px 0 #b4e7f8;">게임, App, interactive한 것 등 여러 방면에서 사용할 수 있는 굉장히 powerful한 언어이다.</span> (예시 : impact.js, three.js) 그리고 ECMAScript라는 Specification을 통해서 버전을 확인할 수 있다. <span style ="font-weight :bold">여기서는 Vanilla JS를 위주로 다룰 것이다.</span>
+<br><br> <span style = "font-weight : bold"> Tip  </span> JS는 보통 body 태그의 마지막 부분에 삽입해준다.
 
-### Variable(변수)
+
+### &#128310; Variable(변수)
 
  * let
  * const
