@@ -1,0 +1,98 @@
+I"�*<p><br /></p>
+
+<p style="font-size : 10px; color : #e9e9e9"> 아래 글은 공부하고 기억하기 위해 남겨놓는 글이다 </p>
+
+<h3 id="-definition">🔶 Definition</h3>
+
+<p>  웹에서 사용되는 프로그래밍 언어, 흔히 Front-End를 개발할 때 사용하는 언어이다. 현재는 웹이 빠르게 발전하면서 같이 빠르게 발전하고 있으며 해당 언어의 개발자들이 할 수 있는 일도 늘어나고 있는 추세이다. <span style="border-bottom : 3px soild #be4e7f8; box-shadow : inset 0 -4px 0 #b4e7f8;">게임, App, interactive한 것 등 여러 방면에서 사용할 수 있는 굉장히 powerful한 언어이다.</span> (예시 : impact.js, three.js) 그리고 ECMAScript라는 Specification을 통해서 버전을 확인할 수 있다. <span style="font-weight :bold">여기서는 Vanilla JS를 위주로 다룰 것이다.</span>
+<br /><br /> <span style="font-weight : bold"> Tip  </span> JS는 보통 body 태그의 마지막 부분에 삽입해준다.</p>
+
+<h3 id="-variable변수">🔶 Variable(변수)</h3>
+
+<ul>
+  <li>let</li>
+  <li>const</li>
+  <li>var</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">var</code>은 function-scope이고 <code class="language-plaintext highlighter-rouge">const</code>와 <code class="language-plaintext highlighter-rouge">let</code>은 block-scope이다. <code class="language-plaintext highlighter-rouge">var</code> 제외한 둘의 차이점은 immutable의 여부이다. <br />
+<code class="language-plaintext highlighter-rouge">let</code>은 변수 재할당이 가능하지만, <br />
+<code class="language-plaintext highlighter-rouge">const</code>는 변수 재선언, 재할당이 모두 불가능하다. 하지만 객체나 배열의 원소의 추가나 삭제는 가능하다.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">list</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">banana</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">apple</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">water</span><span class="dl">"</span><span class="p">];</span>
+<span class="nx">list</span><span class="p">.</span><span class="nx">pop</span><span class="p">();</span> <span class="c1">//water 삭제</span>
+<span class="nx">list</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="dl">"</span><span class="s2">pineapple</span><span class="dl">"</span><span class="p">);</span> <span class="c1">//pineapple 삽입</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">list</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>ES6 이후로는 일반적으로 <code class="language-plaintext highlighter-rouge">const</code>를 기본으로 사용하고 변경이 될 수 있는 변수는 <code class="language-plaintext highlighter-rouge">let</code>을 사용한다. <br />
+변수명을 작성 시에는 <code class="language-plaintext highlighter-rouge">camel case</code>로 작성한다. (예시 : daysofweek -&gt; daysOfWeek, 소문자로 시작해서 스페이스가 필요 시 대문자로 작성)</p>
+
+<p><br /></p>
+
+<h3 id="-strict-equal-operator">🔶 Strict equal operator(===)</h3>
+
+<p>좌항과 우항의 값이 정확하게 같은지 체크할 때 사용 (== 보다는 ===를 사용)</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">alert</span><span class="p">(</span><span class="mi">1</span> <span class="o">===</span> <span class="dl">"</span><span class="s2">1</span><span class="dl">"</span><span class="p">)</span> <span class="c1">// false  </span>
+<span class="nx">alert</span><span class="p">(</span><span class="mi">1</span> <span class="o">==</span> <span class="dl">"</span><span class="s2">1</span><span class="dl">"</span> <span class="p">)</span> <span class="c1">// true</span>
+</code></pre></div></div>
+<p><br /></p>
+
+<h3 id="-data-typeobject--array">🔶 Data type(Object &amp; Array)</h3>
+
+<p>Object와 Array <br /></p>
+
+<p>둘은 데이터를 정렬한다는 공통점이 있지만 Object에는 각 value에 이름 부여할 수 있지만 Array는 그렇지 못한다. Object에 함수도 넣을 수 있다.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">daysOfWeek</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">Mon</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Tue</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Wed</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Thu</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Fri</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Sat</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Sun</span><span class="dl">'</span><span class="p">];</span> <span class="c1">// Array  </span>
+<span class="kd">const</span> <span class="nx">people</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Marty</span><span class="dl">"</span> <span class="p">,</span> <span class="na">age</span> <span class="p">:</span> <span class="mi">26</span><span class="p">,</span> <span class="na">isStudent</span> <span class="p">:</span> <span class="kc">true</span> <span class="p">,</span> <span class="na">favFood</span> <span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">milk</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">apple</span><span class="dl">"</span> <span class="p">]};</span> <span class="c1">//Object</span>
+
+<span class="kd">const</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">list</span><span class="p">:</span> <span class="p">{</span><span class="na">name</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">hoon</span><span class="dl">"</span><span class="p">,</span>  <span class="na">age</span><span class="p">:</span> <span class="mi">6</span> <span class="p">},</span>
+    <span class="na">show</span> <span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+        <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">.</span><span class="nx">list</span><span class="p">){</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">name</span><span class="o">+</span><span class="dl">'</span><span class="s1"> : </span><span class="dl">'</span><span class="o">+</span><span class="k">this</span><span class="p">.</span><span class="nx">list</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span><span class="o">+</span><span class="dl">"</span><span class="s2">&lt;br/&gt;</span><span class="dl">"</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="nx">grades</span><span class="p">.</span><span class="nx">show</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="-function">🔶 Function</h3>
+
+<p>함수는 내가 원하는 만큼 코드를 쓸 수 있게 해주는 것이다. 아래는 기본적으로 JavaScript에서 함수를 정의하는 방법이다. 여기서 name, age는 argument에 해당된다.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">sayHello</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">){</span>
+
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Hello </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">name</span> <span class="o">+</span> <span class="dl">"</span><span class="s2"> you are </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">age</span> <span class="o">+</span> <span class="dl">"</span><span class="s2"> years of age.</span><span class="dl">"</span><span class="p">);</span>
+
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">`Hello </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2"> you are </span><span class="p">${</span><span class="nx">age</span><span class="p">}</span><span class="s2"> years old`</span><span class="p">);</span>
+   <span class="c1">//``은 "", '' 은 매우 다르다. </span>
+
+<span class="p">}</span>
+
+<span class="nx">sayHello</span><span class="p">(</span><span class="dl">"</span><span class="s2">Hoon</span><span class="dl">"</span><span class="p">,</span> <span class="mi">15</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>return 값이 있다면 이렇게 표현할 수 있다.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">sayHello</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">){</span>
+
+  <span class="k">return</span> <span class="s2">`Hello </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2"> you are </span><span class="p">${</span><span class="nx">age</span><span class="p">}</span><span class="s2"> years old`</span><span class="p">;</span>
+
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">test</span> <span class="o">=</span> <span class="nx">sayHello</span><span class="p">(</span><span class="dl">"</span><span class="s2">Hoon</span><span class="dl">"</span><span class="p">,</span> <span class="mi">15</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">test</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>아래는 Object와 Function을 활용해서 인자를 2개 받는 계산기를 만들어보자</p>
+
+<p><br /></p>
+:ET
