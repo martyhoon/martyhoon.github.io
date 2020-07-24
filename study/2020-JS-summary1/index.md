@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JavaScript 정리 -1"
+title: "JavaScript 정리 - 1"
 author: "Martyhoon"
 study : true
 type : "javaScript"
