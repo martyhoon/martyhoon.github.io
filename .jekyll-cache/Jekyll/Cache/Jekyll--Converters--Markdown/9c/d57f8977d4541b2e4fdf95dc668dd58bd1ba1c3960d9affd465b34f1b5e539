@@ -1,0 +1,34 @@
+I"�<p><br /></p>
+
+<p style="font-size : 10px; color : #e9e9e9"> 아래 글은 공부하고 기억하기 위해 남겨놓는 글이다 </p>
+
+<h3 id="-vanilla-js에서-event-사용법">🔶 Vanilla JS에서 Event 사용법</h3>
+
+<p>   Vanilla JS에서 Event를 등록하여 사용하는 방법은 아래와 같다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+
+```js
+
+const title = document.querySelector("#title");
+const CLICKED_CLASS = "clicked";
+
+//1번 코드
+function handleClick(){
+const hasClass = title.classList.contains(CLICKED_CLASS); //CLICKED_CLASS를 가지고 있는지?
+
+    if(hasClass){
+        title.classList.remove(CLICKED_CLASS);
+    } else {
+        title.classList.add(CLICKED_CLASS); //classList 는 className 추가 
+    }
+}
+
+function init(){
+    title.addEventListener("click", handleClicks);
+}
+
+init();
+</code></pre></div></div>
+:ET
