@@ -162,7 +162,7 @@ var inputs = document.querySelectorAll('input');
 
 ```
 
-여기서 새로운 `<li>`을 추가하고 눌리 보면 이벤트가 작동하지 않는다.
+여기서 새로운 `<li>`을 추가하고 눌러 보면 이벤트가 작동하지 않는다.
 
 ```js
 
