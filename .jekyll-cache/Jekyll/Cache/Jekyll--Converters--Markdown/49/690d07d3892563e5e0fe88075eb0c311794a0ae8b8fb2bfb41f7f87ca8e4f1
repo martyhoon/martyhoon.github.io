@@ -1,0 +1,240 @@
+I"<ul class="study-navi">
+
+<li id="all">All</li>
+<li id="HTML">HTML</li>
+<li id="javaScript">JavaScript</li>
+
+</ul>
+
+<ul class="catalogue">
+
+
+
+
+
+<li class="catalogue-item" id="HTML">
+    <a href="/study/2020-html-lifecycle/">
+        
+        
+        
+        <p class="catalogue-type">
+            HTML
+        </p>
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Lifecycle of an HTML page
+            </h1>
+            <p class="catalogue-sub">
+                
+            </p>
+            <p class="catalogue-body">
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글이다  🔶 Intro html 페이지의 lifecycle은 3개의...
+            </p>
+        </div>
+    </a>
+</li>    
+
+
+
+
+
+
+
+<li class="catalogue-item" id="javaScript">
+    <a href="/study/2020-JS-Promise/">
+        
+        
+        
+        <p class="catalogue-type">
+            javaScript
+        </p>
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                JavaScript Promise
+            </h1>
+            <p class="catalogue-sub">
+                
+            </p>
+            <p class="catalogue-body">
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글이다     이번에는 데이터베이스에서 요청한 데이터를 받아 화면에...
+            </p>
+        </div>
+    </a>
+</li>    
+
+
+
+
+
+
+
+<li class="catalogue-item" id="javaScript">
+    <a href="/study/2020-JS-Event/">
+        
+        
+        
+        <p class="catalogue-type">
+            javaScript
+        </p>
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Vanilla JS Event
+            </h1>
+            <p class="catalogue-sub">
+                
+            </p>
+            <p class="catalogue-body">
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글이다     이번에는 Vanilla JS에서 Event를 어떻게 등록하고...
+            </p>
+        </div>
+    </a>
+</li>    
+
+
+
+
+
+
+
+<li class="catalogue-item" id="javaScript">
+    <a href="/study/2020-JS-summary2/">
+        
+        
+        
+        <p class="catalogue-type">
+            javaScript
+        </p>
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                JavaScript 정리 - 2
+            </h1>
+            <p class="catalogue-sub">
+                
+            </p>
+            <p class="catalogue-body">
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글이다  ### &#128310; DOM(Document Object Model - HTML요소들의...
+            </p>
+        </div>
+    </a>
+</li>    
+
+
+
+
+
+
+
+
+
+<li class="catalogue-item" id="javaScript">
+    <a href="/study/2020-JS-summary1/">
+        
+        
+        
+        <p class="catalogue-type">
+            javaScript
+        </p>
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                JavaScript 정리 - 1
+            </h1>
+            <p class="catalogue-sub">
+                
+            </p>
+            <p class="catalogue-body">
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글이다  🔶 Definition   웹에서 사용되는 프로그래밍 언어,...
+            </p>
+        </div>
+    </a>
+</li>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+<script>
+
+const studyNavi = document.querySelector(".study-navi");
+const all = document.querySelector(".study-navi #all");
+const contents = document.querySelectorAll(".catalogue-item");
+const list =document.querySelectorAll(".study-navi li")
+
+
+function init(){
+
+
+
+}
+
+
+studyNavi.addEventListener("click",  function(event){
+
+    const type = event.target.id;
+    
+    //선택된 버튼 색칠   
+    for(let value of list){
+
+        if(value.id === type){
+
+            value.style.color = "white";
+            value.style.background ="black";
+
+        } else{
+
+            value.style.color = "black";
+            value.style.background ="white";
+
+        }
+       
+    }
+
+    //해당 버튼의 contents 출력
+    if(type === "all"){
+        for(let value of contents){
+            value.style.display = "block";
+
+        }
+    }else{
+
+        for(let value of contents){
+
+                 if(value.id === type){
+                     //display : block;
+    
+                     value.style.display = "block";
+
+                 }
+                 else{
+                       value.style.display = "none";
+                     //display : none;
+                 }
+        }
+    }
+   
+});
+
+
+
+
+init();
+
+</script>
+
+:ET
