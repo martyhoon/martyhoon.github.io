@@ -1,4 +1,4 @@
-I"p<ul class="study-navi">
+I"�<ul class="study-navi">
 
 <li id="all">All</li>
 <li id="Web">Web</li>
@@ -7,6 +7,34 @@
 </ul>
 
 <ul class="catalogue">
+
+
+
+
+
+<li class="catalogue-item" id="Web">
+    <a href="/study/2020-web-standard/">
+        
+        
+        
+        <p class="catalogue-type">
+            Web
+        </p>
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                웹 표준(Web Standard)
+            </h1>
+            <p class="catalogue-sub">
+                
+            </p>
+            <p class="catalogue-body">
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다  🔶 웹 표준(Web Standard)이란?   &lt;span style="border-bottom...
+            </p>
+        </div>
+    </a>
+</li>    
+
+
 
 
 
@@ -56,7 +84,7 @@
                 
             </p>
             <p class="catalogue-body">
-                  아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다     이번에는 데이터베이스에서 요청한 데이터를 받아 화면에...
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다  &nbsp;&nbsp; 이번에는 데이터베이스에서 요청한 데이터를 받아 화면에...
             </p>
         </div>
     </a>
@@ -112,7 +140,7 @@
                 
             </p>
             <p class="catalogue-body">
-                  아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다  ### &#128310; DOM(Document Object Model - HTML요소들의...
+                  아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다  🔶 DOM(Document Object Model - HTML요소들의...
             </p>
         </div>
     </a>

@@ -19,6 +19,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/study/2020-JS-summary2/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/study/2020-JS-Event/</loc>
 </url>
 <url>
@@ -28,7 +31,7 @@
 <loc>http://localhost:4000/study/2020-JS-summary1/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/study/2020-JS-Promise/</loc>
+<loc>http://localhost:4000/study/2020-web-standard/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/2020-prepare/</loc>
@@ -40,6 +43,6 @@
 <loc>http://localhost:4000/study/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/study/2020-JS-summary2/</loc>
+<loc>http://localhost:4000/study/2020-JS-Promise/</loc>
 </url>
 </urlset>
