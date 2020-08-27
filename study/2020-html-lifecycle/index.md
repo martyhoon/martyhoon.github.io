@@ -3,7 +3,7 @@ layout: post
 title: "Lifecycle of an HTML page"
 author: "Martyhoon"
 study : true
-type : "HTML"
+type : "Web"
 text : true
 order : 5
 ---

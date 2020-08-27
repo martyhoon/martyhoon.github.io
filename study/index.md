@@ -7,7 +7,7 @@ main : true
 <ul class ="study-navi"  >
 
 <li id="all">All</li>
-<li id="HTML">HTML</li>
+<li id="Web">Web</li>
 <li id="javaScript">JavaScript</li>
 
 </ul>
