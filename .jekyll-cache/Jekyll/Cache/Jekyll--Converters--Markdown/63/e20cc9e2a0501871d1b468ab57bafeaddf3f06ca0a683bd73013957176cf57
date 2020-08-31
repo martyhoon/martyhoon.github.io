@@ -1,0 +1,59 @@
+I"/<p><br /></p>
+
+<p style="font-size : 10px; color : #e9e9e9"> 아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다 </p>
+
+<h3 id="-sort">🔶 Sort()</h3>
+
+<p>   코딩테스트 공부를 하면서 Sort를 많이 사용하는데 생각보다 이 부분 때문에 틀리는 경우가 많아 한 번 정리를 해보려고 한다. 
+<br /> 기본적으로 <code class="language-plaintext highlighter-rouge">array.sort()</code>를 사용할 시 <strong>compareFunction</strong>이 제공되지 않으면 요소를 문자열로 변환하고 유니 코드 코드 포인트 순서로 문자열을 비교하여 정렬된다. 
+(그래서 숫자 정렬에서는 9가 80보다 앞에 오지만 숫자는 문자열로 변환되기 때문에 “80”은 유니 코드 순서에서 “9”앞에 오기에 주의해야 한다.)</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">months</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">March</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Jan</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Feb</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Dec</span><span class="dl">'</span><span class="p">];</span>
+<span class="nx">months</span><span class="p">.</span><span class="nx">sort</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">months</span><span class="p">);</span>
+<span class="c1">// expected output: Array ["Dec", "Feb", "Jan", "March"]</span>
+</code></pre></div></div>
+<p>그리하여 숫자로 정렬하고 싶다면 compareFunction을 지정해야 주어야 한다.</p>
+
+<ul>
+  <li>compareFunction() &lt; 1</li>
+  <li></li>
+</ul>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+
+<span class="c1">//오름차순 정렬 </span>
+<span class="nx">list</span><span class="p">.</span><span class="nx">sort</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">){</span>
+
+     <span class="k">return</span> <span class="nx">a</span> <span class="o">-</span> <span class="nx">b</span><span class="p">;</span> <span class="c1">//내림차순 : return b-a;</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>다음과 같이 표현할 수도 있다.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//오름차순 정렬 </span>
+<span class="nx">list</span><span class="p">.</span><span class="nx">sort</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">a</span> <span class="o">&gt;</span><span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">a</span> <span class="o">&lt;</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>객체에서 value를 기준으로 정렬하고 싶다면 다음과 같이하면 된다.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">list</span> <span class="o">=</span> <span class="p">{</span>
+
+    <span class="na">mark</span> <span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="na">hoon</span> <span class="p">:</span> <span class="mi">12</span><span class="p">,</span>
+    <span class="na">track</span> <span class="p">:</span> <span class="mi">7</span>
+<span class="p">};</span>
+
+<span class="kd">let</span> <span class="nx">keysSorted</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">list</span><span class="p">).</span><span class="nx">sort</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">){</span>
+            <span class="k">return</span> <span class="nx">list</span><span class="p">[</span><span class="nx">a</span><span class="p">]</span><span class="o">-</span><span class="nx">list</span><span class="p">[</span><span class="nx">b</span><span class="p">];</span>
+<span class="p">});</span>
+<span class="c1">// ["mark", "track", "hoon"]</span>
+</code></pre></div></div>
+:ET
