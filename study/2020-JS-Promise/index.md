@@ -5,13 +5,11 @@ author: "Martyhoon"
 study : true
 type : "javaScript"
 text : true
+date : "2020-07-29"
 order : 4
 ---
 
 <br>
-
-<p style="font-size : 10px; color : #e9e9e9" > 아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다 </p>
-
 
 &nbsp;&nbsp; 이번에는 데이터베이스에서 요청한 데이터를 받아 화면에 표시할 때 사용하는 Promise에 대해 공부해보겠다. 
 

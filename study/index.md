@@ -9,6 +9,7 @@ main : true
 <li id="all">All</li>
 <li id="Web">Web</li>
 <li id="javaScript">JavaScript</li>
+<li id="algorithm">Algorithm </li>
 
 </ul>
 

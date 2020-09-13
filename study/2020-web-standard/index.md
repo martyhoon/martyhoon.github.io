@@ -5,12 +5,11 @@ author: "Martyhoon"
 study : true
 type : "Web"
 text : true
+date : "2020-09-01"
 order : 6
 ---
 
 <br>
-
-<p style="font-size : 10px; color : #e9e9e9" > 아래 글은 공부하고 기억하기 위해 남겨놓는 글입니다 </p>
 
 ### &#128310; 웹 표준(Web Standard)이란?
 
