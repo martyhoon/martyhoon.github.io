@@ -95,3 +95,17 @@ td {
   color:white; background-color: #495057; 
 
 }
+
+.mbtablestyle {
+  border-collapse: collapse;
+  align-items: center;
+> thead{
+
+  background-color: #dee2e6;
+}
+
+> table, td, th {
+  border: 1px solid black;
+  width: 600px;
+  }
+}
