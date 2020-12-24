@@ -44,7 +44,7 @@ header-img: /img/about.jpg
 <br><br>
 ### &#128568; Who is Martyhoon?
 
-현재는 학교를 다니면서 여러 가지 도전을 하며 지내는 <span style ="border-bottom : 3px soild #be4e7f8; box-shadow : inset 0 -4px 0 #b4e7f8;">꿈 많고 욕심도 많은 대학생</span>입니다. 개발 뿐만 아니라 글쓰기와 경제 & 금융에 대해 관심이 많습니다. 이 블로그는 나만의 기록을 남기고 싶어서 개설하게 되었습니다.
+여러 가지 도전을 하며 지내는 <span style ="border-bottom : 3px soild #be4e7f8; box-shadow : inset 0 -4px 0 #b4e7f8;">꿈 많고 욕심도 많은 대학생</span>입니다. 개발뿐만 아니라 경제&금융, 역사에도 관심이 많습니다.
 <br><br>
 
 ###  &#128203; History
@@ -52,7 +52,7 @@ header-img: /img/about.jpg
 * 95년 돼지띠 🐖
 * 동국대학교 컴퓨터공학과 재학 (2014 ~)
 * 대학생 연합 프레젠테이션 동아리 UnivPT 활동
-* 동국대학교 창업동아리 MAD MESCH 소속 (2018 ~)
+* 동국대학교 창업동아리 MAD MESCH 소속 (2018 ~ 2020)
 <br><br>
 
 ### &#127947; Ability & Skills
